@@ -1,0 +1,10 @@
+/* This file is intentionally left blank. Custom styles go here. */
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #343a40; /* Dark color for contrast */
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
