@@ -20,7 +20,7 @@ document.getElementById('chat-form').addEventListener('submit', function(event) 
       // Configure it: GET-request for the URL /article/.../load
       xhr.open('POST', 'https://api.cohere.ai/v1/chat', true);
       xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.setRequestHeader('Authorization', 'Bearer kYkxKXnXB59ml8uoIBNaZaPNHyxCapBBcpvgACUp');
+      xhr.setRequestHeader('Authorization', 'Bearer <API_KEY>');
       xhr.setRequestHeader('Access-Control-Allow-Origin', '*'); // Enable CORS
       xhr.setRequestHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE'); // Enable CORS
       xhr.setRequestHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization'); // Enable CORS
